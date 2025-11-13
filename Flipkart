@@ -1,1 +1,6 @@
 checking webhook for checking automate build.
+creating new pipeline for jenkins
+also we need to automate the pipeline for continous building
+Set<String> set = people.stream()
+   .map(Person::getName)
+   .collect(Collectors.toCollection(TreeSet::new));
