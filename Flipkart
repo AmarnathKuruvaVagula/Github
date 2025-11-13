@@ -4,3 +4,6 @@ also we need to automate the pipeline for continous building
 Set<String> set = people.stream()
    .map(Person::getName)
    .collect(Collectors.toCollection(TreeSet::new));
+Set<String> set = people.stream()
+   .map(Person::getName)
+   .collect(Collectors.toCollection(TreeSet::new));
