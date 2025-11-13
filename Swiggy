@@ -1,4 +1,4 @@
-Created new file Swigy for delivery.
+
 
 Set<String> set = people.stream()
    .map(Person::getName)
